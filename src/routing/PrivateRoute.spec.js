@@ -3,7 +3,7 @@ import {mount} from 'enzyme';
 import {Switch, Route, MemoryRouter} from 'react-router';
 import configureMockStore from 'redux-mock-store';
 import {Provider} from 'react-redux';
-import authRoutes from './authRoutes';
+import authRoutes from './AuthRoutes';
 import PrivateRoute from './PrivateRoute';
 import {initReactDevise} from '../config';
 

@@ -1,6 +1,6 @@
 {
-  "name": "react-devise",
-  "version": "0.0.19",
+  "name": "@rrnara/react-devise",
+  "version": "0.1.2",
   "description": "A react front-end for a ruby on rails devise authentication server.",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/timscott/react-devise.git"
+    "url": "git+ssh://git@github.com/rrnara/react-devise.git"
   },
   "keywords": [
     "react",
@@ -31,9 +31,9 @@
   "author": "Tim Scott <tscott@lunaversesoftware.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timscott/react-devise/issues"
+    "url": "https://github.com/rrnara/react-devise/issues"
   },
-  "homepage": "https://github.com/timscott/react-devise#readme",
+  "homepage": "https://github.com/rrnara/react-devise#readme",
   "dependencies": {
     "es6-error": "^4.0.2",
     "fetch-bluebird": "^1.0.3",

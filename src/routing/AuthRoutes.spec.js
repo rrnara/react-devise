@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import {shallowToJson} from 'enzyme-to-json';
-import authRoutes, {AuthRoutesComponent} from './authRoutes';
+import authRoutes, {AuthRoutesComponent} from './AuthRoutes';
 import {initReactDevise} from '../config';
 import {Route, Switch} from 'react-router';
 

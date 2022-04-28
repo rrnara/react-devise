@@ -14,6 +14,7 @@ const requireAuth = (WrappedComponent, {authorize, ...props} = {}) => {
     const {clientResourceName, routes: {login}, messages: {mustLoginMessage}} = getConfig();
     const to = redirectTo || {
       pathname: `/${clientResourceName}${login.path}`,
+      search: `?returnTo=${location.pathname || '/'}`,
       state: {
         alert: mustLoginMessage,
         from: location

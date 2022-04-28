@@ -1,4 +1,4 @@
-**ATTENTON**: For now, this must be considered experimental software and not to be used in production.
+**ATTENTON**: Forked repo
 
 # React Devise
 
@@ -27,7 +27,7 @@ If you don't want to use these in your app, React Devise is probably not for you
 ## Installation
 
 ```
-yarn add react-devise
+yarn add @rrnara/react-devise
 ```
 
 ## Documentation
